@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- simple ">" robot-ish glyph -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,40 L54,54 L30,68 Z M56,40 L80,54 L56,68 Z" />
+</vector>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DeepSeek Root Agent</string>
+    <string name="title_settings">设置</string>
+    <string name="title_logs">运行日志</string>
+    <string name="hint_input">输入任务，例如：卸载微博并冻结后台</string>
+    <string name="send">发送</string>
+    <string name="action_settings">API 设置</string>
+    <string name="action_logs">查看日志</string>
+    <string name="action_export">导出日志</string>
+    <string name="action_stop">停止</string>
+    <string name="action_newchat">清空对话（新会话）</string>
+    <string name="welcome">欢迎使用 DeepSeek Root Agent。\n\n在「设置」中填入你的 DeepSeek API Key，然后用自然语言下达任务，我会通过 Root Shell 在你的手机上执行。\n\n可用能力：执行 shell 命令、读写文件、列出/卸载应用、截图、模拟点击滑动、修改系统设置、查看设备信息等。</string>
+</resources>

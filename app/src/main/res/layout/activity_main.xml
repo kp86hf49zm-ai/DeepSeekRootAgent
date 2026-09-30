@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#FFFFFF"
+        android:elevation="0dp"
+        app:titleTextColor="#4D6BFE"
+        app:subtitleTextColor="#999999"
+        app:titleTextAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:clipToPadding="false"
+            android:scrollbars="vertical" />
+
+        <LinearLayout
+            android:id="@+id/emptyState"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DeepSeek"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#4D6BFE" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用自然语言操作你的手机"
+                android:textSize="13sp"
+                android:textColor="#AAAAAA"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnScrollBottom"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:background="@drawable/bg_scroll_bottom"
+            android:src="@android:drawable/arrow_down_float"
+            android:contentDescription="回到底部"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="8dp"
+        android:background="#FFFFFF"
+        android:gravity="bottom">
+
+        <ImageView
+            android:id="@+id/btnAttach"
+            android:layout_width="44dp"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:src="@android:drawable/ic_menu_upload"
+            android:contentDescription="上传图片" />
+
+        <View android:layout_width="4dp" android:layout_height="0dp" />
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_input"
+            android:textColorHint="#BBBBBB"
+            android:textColor="#1A1A1A"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="5"
+            android:background="@drawable/bg_input"
+            android:padding="14dp"
+            android:minHeight="48dp" />
+
+        <View android:layout_width="6dp" android:layout_height="0dp" />
+
+        <ImageView
+            android:id="@+id/btnSend"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:padding="11dp"
+            android:background="@drawable/bg_send_button"
+            android:src="@drawable/ic_send"
+            android:contentDescription="@string/send" />
+    </LinearLayout>
+</LinearLayout>

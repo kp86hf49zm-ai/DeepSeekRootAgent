@@ -1,0 +1,29 @@
+<resources>
+    <!-- DSH 风格浅色主题 -->
+    <color name="primary">#4D6BFE</color>
+    <color name="primary_dark">#2B3D9E</color>
+    <color name="accent">#6366F1</color>
+
+    <color name="bg_dark">#FFFFFF</color>
+    <color name="bg_card">#F1F5F9</color>
+    <color name="bg_card_alt">#E2E8F0</color>
+    <color name="bg_input">#F1F5F9</color>
+
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+
+    <color name="user_bubble">#4D6BFE</color>
+    <color name="user_text">#FFFFFF</color>
+    <color name="ai_bubble">#F1F5F9</color>
+    <color name="ai_text">#0F172A</color>
+    <color name="cmd_bubble">#FFF7ED</color>
+    <color name="cmd_text">#C2410C</color>
+    <color name="result_bubble">#F8FAFC</color>
+    <color name="result_text">#334155</color>
+    <color name="err_bubble">#FEE2E2</color>
+    <color name="err_text">#991B1B</color>
+    <color name="system_text">#94A3B8</color>
+
+    <color name="divider">#E2E8F0</color>
+</resources>

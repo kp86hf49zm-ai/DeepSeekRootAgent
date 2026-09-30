@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+app/build/
+local.properties
+
+# 签名私钥（不应提交到公开仓库）
+keystore/
+
+# 日志与临时文件
+*.log
+*.tmp
+build_err.log
+build_full.log
+wrapper.log
+
+# 构建产物
+dist/
+*.apk
+*.zip
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kotlin
+.kotlin/
